@@ -961,7 +961,7 @@ class AdminThemeUikit extends AdminThemeFramework implements Module, Configurabl
 			$alt = "ProcessWire $config->version";
 		}
 		$class = 'pw-logo ' . ($native ? 'pw-logo-native' : 'pw-logo-custom');
-		$img = "<img class='$class' src='$logoURL' alt='$alt' />";
+		$img = "<img class='$class' src='$logoURL' alt='$alt' uk-svg />";
 		
 		return $img;
 	}
